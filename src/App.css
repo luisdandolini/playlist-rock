@@ -110,3 +110,16 @@
   font-family: 'Roboto', sans-serif;
   font-size: 0.875rem;
 }
+
+/* THIRD */
+
+.playlist-third {
+  margin-top: 5rem;
+  width: 358px;
+  height: 199px;
+  background-color: #2A2141;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-radius: 9px;
+}

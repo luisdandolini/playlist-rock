@@ -9,13 +9,34 @@ function App() {
           <p className='band-name'>Banda Rocketseat</p>
           <div>
             <div className='controls'>
-            <img src='/img/play-back.png' alt='Ícone voltar música' />
-            <img src='/img/play.png' alt='Ícone play música' />
-            <img src='/img/play-forward.png' alt='Ícone avançar música' />
+              <img src='/img/play-back.png' alt='Ícone voltar música' />
+              <img src='/img/play.png' alt='Ícone play música' />
+              <img src='/img/play-forward.png' alt='Ícone avançar música' />
             </div>
             <img className='music-time' src='/img/time-music.png' alt='Tempo da música' />
             <div className='music-minutes'>
-            <span>03:20</span> <span>00:12</span>
+              <span>03:20</span> <span>00:12</span>
+            </div>
+          </div>
+      </div>
+
+      <div className='playlist-second'>
+          <div className='container-second'>
+            <img src='/img/music.png' alt='Foto música'/>
+            <div>
+              <h2>Acorda Devinho</h2>
+              <p>Banda Rocketseat</p>
+            </div>
+          </div>
+          <div>
+            <div className='controls'>
+              <img src='/img/play-back.png' alt='Ícone voltar música' />
+              <img src='/img/play.png' alt='Ícone play música' />
+              <img src='/img/play-forward.png' alt='Ícone avançar música' />
+            </div>
+            <img className='music-time-second' src='/img/time-music.png' alt='Tempo da música' />
+            <div className='music-minutes-second'>
+              <span>03:20</span> <span>00:12</span>
             </div>
           </div>
       </div>

@@ -1,3 +1,17 @@
+.container-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 11rem 6rem 12rem;
+}
+
+.container-app-playlists {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 1.75rem;
+}
+
 /* FIRTS */
 
 .playlist-first {
@@ -57,7 +71,6 @@
 /* SECOND */
 
 .playlist-second {
-  margin-top: 5rem;
   width: 358px;
   height: 266px;
   background-color: #2A2141;
@@ -114,7 +127,6 @@
 /* THIRD */
 
 .playlist-third {
-  margin-top: 5rem;
   width: 358px;
   height: 199px;
   background-color: #2A2141;
